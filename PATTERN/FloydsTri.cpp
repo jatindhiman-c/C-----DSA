@@ -2,14 +2,18 @@
 
 using namespace std;
 int main(){
+int i,j,p = 1;
 
-for(int i = 0;i<5;i++){
-    
-for(int j = 0;j<i;j++){
-    cout << j;
+
+for( i = 1;i<5;i++){
+     
+for(j = i;j<i+1;j++){
+   cout << j;
 
 }
+
 cout << endl;
 }
+
     return 0;
 }
